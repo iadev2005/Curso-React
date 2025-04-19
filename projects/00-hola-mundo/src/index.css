@@ -6,3 +6,10 @@ body {
     place-content: center;
     min-height: 100dvh
 }
+
+/* Hacemos la separación en el contenedor */
+.App {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
